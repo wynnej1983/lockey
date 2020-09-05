@@ -1,0 +1,120 @@
+[
+  {
+    "id": 1,
+    "guid": "6a746faeaa5456104ea42abd94d48824",
+    "name": "Grafton",
+    "locks": [
+      {
+        "id": 1,
+        "guid": "5ce77cb3b229188d057524cb0de4f9a6",
+        "category": "house",
+        "name": "Front door",
+        "status": "locked"
+      },
+      {
+        "id": 2,
+        "guid": "b9908b09554152246a79f952939df2fb",
+        "category": "house",
+        "name": "Bicycle door",
+        "status": "offline"
+      },
+      {
+        "id": 3,
+        "guid": "73f28b2c8dcc3f6410698cd4871a3063",
+        "category": "room",
+        "name": "Room #1",
+        "status": "unlocked"
+      },
+      {
+        "id": 4,
+        "guid": "34a40e3ef6dd7c567cfd29b9bef75323",
+        "category": "room",
+        "name": "Room #2",
+        "status": "unlocked"
+      },
+      {
+        "id": 5,
+        "guid": "53972f946e371b83f602f89fd47125b3",
+        "category": "room",
+        "name": "Locker room #2",
+        "status": "locked"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "guid": "500527e81cfa72d913cc3cf7e298f7c6",
+    "name": "Baggot",
+    "locks": [
+      {
+        "id": 6,
+        "guid": "37d77e5206601b66e0b79be66bdfa24d",
+        "category": "house",
+        "name": "Front door",
+        "status": "locked"
+      },
+      {
+        "id": 7,
+        "guid": "4b3a196721d3671c26e868171af3f99a",
+        "category": "house",
+        "name": "Back door",
+        "status": "locked"
+      },
+      {
+        "id": 8,
+        "guid": "0fb9be38ca2545ca2df7cf29da4de023",
+        "category": "room",
+        "name": "Room #1",
+        "status": "unlocked"
+      },
+      {
+        "id": 9,
+        "guid": "24c42574ee1ee02b96724cb825236f99",
+        "category": "room",
+        "name": "Room #2",
+        "status": "unlocked"
+      },
+      {
+        "id": 10,
+        "guid": "3997e265794f322fe071615dade7bcb0",
+        "category": "room",
+        "name": "Room #3",
+        "status": "locked"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "guid": "8feab8b9e5e6fbe50271cc9f91cc02f0",
+    "name": "O'Connell",
+    "locks": [
+      {
+        "id": 11,
+        "guid": "07a8361ad38d9c2d1eb8b464c9a2f10b",
+        "category": "house",
+        "name": "Front door",
+        "status": "locked"
+      },
+      {
+        "id": 12,
+        "guid": "dcdb7f63effb98a11e9d8b048c2e9325",
+        "category": "room",
+        "name": "Room #1",
+        "status": "locked"
+      },
+      {
+        "id": 13,
+        "guid": "8681ce92a4cad7208401a3a0db7951af",
+        "category": "room",
+        "name": "Room #2",
+        "status": "unlocked"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "guid": "3939aef561ce14e1a6aa4d1ef69a61a8",
+    "name": "Osaka",
+    "locks": []
+  }
+]

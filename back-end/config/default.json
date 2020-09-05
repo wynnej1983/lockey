@@ -1,0 +1,8 @@
+{
+    "APP": {
+        "PORT": 4000
+    },
+    "SMART_LOCK": {
+        "BASE_URL": "http://localhost:4001"
+    }
+ }

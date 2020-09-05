@@ -1,0 +1,39 @@
+{
+  "name": "back-end",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --timeout 3000 --recursive -r @babel/register --exit",
+    "start": "nodemon --exec babel-node src/app.js",
+    "clean": "rm -rf build",
+    "build": "npm run clean && mkdir build && babel src/ --out-dir -s -d build",
+    "prod": "node build/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "asynchronous-emitter": "^0.1.0",
+    "config": "^3.3.0",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.0",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.7",
+    "@babel/node": "^7.8.7",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/preset-env": "^7.8.7",
+    "@babel/register": "^7.8.6",
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "chai-http": "^4.3.0",
+    "mocha": "^7.1.0",
+    "mocha-sinon": "^2.1.0",
+    "node-mocks-http": "^1.8.1",
+    "nodemon": "^2.0.2",
+    "sinon": "^9.0.0"
+  }
+}
